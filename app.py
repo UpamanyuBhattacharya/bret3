@@ -1,4 +1,5 @@
 # -------------------- Grid Rendering (FAST, no widgets) --------------------
+import streamlit as st
 n, cols = st.session_state.n, st.session_state.cols
 rows = (n + cols - 1) // cols
 
